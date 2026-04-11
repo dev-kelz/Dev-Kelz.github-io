@@ -428,3 +428,10 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+/*** Live Demo Button Hover Effect ***/
+.live-demo-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
